@@ -1,0 +1,25 @@
+#include<stdio.h> 
+#define Max_Size 5 
+Void linear_search ( int[ ] , int ) ; 
+Int main( ) { 
+Int arr_search [ Max_Size ] , i , e , element ; 
+Printf( “\n enter %d elements for searching: \n”Max_Size ) ; 
+For ( i = 0; i<Max_Size; i++ ) 
+Scanf(“%d”,& arr_search [ i ]); 
+Printf (“ enter element to search : ” ); 
+Scanff (“ %d ”, & element ); 
+// Linear search function 
+Linear_Search ( arr_search , element ); 
+} 
+Void Linear_search ( int fun_arr [ ], int element) { 
+Int I; 
+// for : check elements one by one – linear 
+For( i=0; i< Max_Size; i++) { 
+If ( fun_arr [ i ] == element) { 
+Printf ( “ linear search : %d is found at array : %d \n”,element, i+1 ) ; 
+Break; 
+ } 
+} 
+If ( i==Max_Size ) 
+Printf(“ \n search element : %d is not found at array : \n”,element); 
+} 
