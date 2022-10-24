@@ -1,0 +1,21 @@
+ALGORITHM :
+Step 1: Start 
+Step 2: Declare an array, and search data variable-x.
+Step 3: Traverse the entire array until search data is found.
+                 If search data  is present then 
+                     return its location
+                 else 
+                     return -1
+Step 4: print data 
+Step 5: Stop
+
+Pseudocode :
+
+PROCEDURE LINEAR_SEARCH (LIST, VALUE)
+  FOR EACH ITEM IN THE LIST
+      IF SEARCH ITEM == VALUE
+          RETURN THE ITEM'S LOCATION
+      ELSE
+          RETURN -1
+ END FOR
+END PROCEDURE
